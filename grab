@@ -151,3 +151,8 @@ else
   notify "Ошибка загрузки"
 fi
 
+if [ "$1" = "--version" ]; then
+  echo "grab v$VERSION"
+  exit 0
+fi
+
